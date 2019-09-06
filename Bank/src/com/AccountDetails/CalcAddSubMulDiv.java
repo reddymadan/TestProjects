@@ -1,6 +1,12 @@
 package com.AccountDetails;
 
-public class CalcAddSubMulDiv {
+public class CalcAddSubMulDiv  {
+	
+	public void add(int a, int b) {
+		
+		int c = a+b;
+		System.out.println("addition is::" + c);
+	}
 	
 	public void division(int a, int b) {
 		
